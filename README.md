@@ -7,7 +7,7 @@ Berikut repository berisi readme.md untuk mereplikasi langkah-langkah pembuatan 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF.svg)](https://vitejs.dev/)
 
-Modern web application untuk **Predictive Maintenance Copilot** - monitoring kesehatan mesin industri real-time dengan AI-powered chatbot assistant.
+Modern web application untuk **Predictive Maintenance Copilot** - monitoring kesehatan mesin industri dengan AI-powered chatbot assistant.
 
 ##  Deskripsi
 
