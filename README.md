@@ -11,12 +11,12 @@ Modern web application untuk **Predictive Maintenance Copilot** - monitoring kes
 
 ##  Deskripsi
 
-PM Copilot Frontend adalah dashboard interaktif yang memvisualisasikan data sensor mesin, prediksi ML, dan maintenance tickets secara real-time. Dilengkapi dengan AI chatbot untuk membantu engineer dalam diagnosis dan decision-making.
+PM Copilot Frontend adalah dashboard interaktif yang memvisualisasikan data sensor mesin, prediksi ML, dan maintenance tickets. Dilengkapi dengan AI chatbot untuk membantu engineer dalam diagnosis dan decision-making.
 
 ##  Fitur Utama
 
 ### 1. **Dashboard Overview**
-- Real-time metrics (20 mesin, prediksi aktif, open tickets)
+- Machine metrics (20 mesin, prediksi aktif, open tickets)
 - Quick preview active predictions & urgent tickets
 - Color-coded status indicators
 
@@ -60,7 +60,6 @@ PM Copilot Frontend adalah dashboard interaktif yang memvisualisasikan data sens
   "icons": "Lucide React",
   "stateManagement": "React Context / Zustand",
   "http": "Axios",
-  "realtime": "Socket.IO Client",
   "routing": "React Router v6",
   "deployment": "Vercel"
 }
@@ -344,15 +343,14 @@ xl: 1280px  /* Large desktop */
 
 ```typescript
 /                           → Landing Page
-/dashboard                  → Redirect to /dashboard/overview
-/dashboard/overview         → Dashboard Overview
+/dashboard                  → Dashboard Overview
 /dashboard/machines         → Machines Grid
 /dashboard/predictions      → Predictions List
 /dashboard/tickets          → Tickets Management
 /dashboard/settings         → User Settings
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests
 
